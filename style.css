@@ -1,10 +1,118 @@
 body {
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/*header*/
+
 #header {
-    background: url("images/banner.jpg") no-repeat center center;
+    background: url("images/banner.jpg") no-repeat;
+    background-size: 100% 100%;
     width: 100%;
-    height: 500px;
+    height: 573px;
+    overflow: hidden;
 }
+
+#nav {
+    width: 777px;
+    margin-top: 40px;
+    box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.25);
+    border-radius: 0.35em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#list {
+    overflow: hidden;
+    padding: 0px 13px;
+}
+
+#nav > ul > li {
+    float: left;
+    list-style-type: none;
+    padding: 0 1.8em 0 1.8em;
+}
+
+#nav > ul > li > a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.75);
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.25em;
+    display: block;
+    height: 5em;
+    line-height: 5em;
+}
+
+.list {
+    position: absolute;
+    background-color: rgba(22,28,35,0.1);
+    width: 206px;
+    padding: 20px 0px;
+    border: 1px solid #4A505B;
+    border-radius: 0 0 10px 10px;
+    margin: 0px -60px;
+}
+
+.list > li {
+    list-style-type: none;
+    border-bottom: 1px solid #4A505B;
+    display: block;
+
+    margin: 0px 15px;
+    width: 155px;
+}
+
+.list > li > a {
+    color: rgba(255,255,255,0.75);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.7em;
+    letter-spacing: 0.25em;
+    display: block;
+    width: 220px;
+    height: 35px;
+    line-height: 33px;
+}
+
+.list > li:last-child {
+    border-bottom: none;
+}
+
+#list a:hover {
+    color: #eee;
+}
+
+.third {
+    border-radius: 10px 10px;
+    margin: -45px 191px;
+}
+
+#logo {
+    text-align: center;
+    margin-top: 185px;
+}
+
+h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: 0.25em;
+}
+
+#logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#logo p {
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+}
+
+
+
