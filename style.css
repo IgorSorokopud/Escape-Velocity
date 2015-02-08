@@ -12,6 +12,7 @@ body {
     width: 100%;
     height: 573px;
     overflow: hidden;
+    position: relative;
 }
 
 #nav {
@@ -47,12 +48,12 @@ body {
 
 .list {
     position: absolute;
-    background-color: rgba(22,28,35,0.1);
     width: 206px;
     padding: 20px 0px;
     border: 1px solid #4A505B;
     border-radius: 0 0 10px 10px;
     margin: 0px -60px;
+    background-color: rgba(44,50,63,0.925);
 }
 
 .list > li {
@@ -91,7 +92,7 @@ body {
 
 #logo {
     text-align: center;
-    margin-top: 185px;
+    margin-top: 14%;
 }
 
 h1 {
@@ -114,5 +115,637 @@ h1 {
     color: rgba(255,255,255,0.5);
 }
 
+.title {
+    width: 29%;
+    min-width: 225px;
+    height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #e97770 url('images/overlay.png');
+}
+
+.title h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    padding-top: 20px;
+}
+
+#title {
+    height: auto;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+/*intro*/
+
+#intro {
+    width: 100%;
+    background: #e97770 url('images/overlay.png');
+    height: 677px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.style1 {
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 0.075em;
+    color: rgba(255,255,255,0.75);
+    padding-top: 105px;
+    margin: 0px;
+}
+
+#intro-logo {
+    width: 90%;
+    height: auto;
+    margin: 60px auto;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 15px;
+}
+
+.style2 {
+    font-size: 2.75em;
+    letter-spacing: 0.075em;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.style2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#intro-bottom {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.style3 {
+    color: rgba(255,255,255,0.75);
+    font-size: 1.1em;
+}
+
+.style3 strong {
+    color: #ffffff;
+}
+
+.style3 a {
+    color: #ffffff;
+}
+
+.style3 a:hover {
+    text-decoration: none;
+}
+
+.button {
+    width: 245px;
+    height: 70px;
+    background: #2f333b url('images/overlay.png');
+    margin: 60px auto;
+    border-radius: 10px;
+}
+
+.button a {
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    line-height: 70px;
+    border-radius: 10px;
+}
+
+.black a:hover {
+    background-color: #3f434b;
+}
+
+.bottom {
+    margin-top: 76px;
+    background: #fff;
+}
+
+.bottom h3 {
+    color: #484d55;
+}
 
 
+#title-bottom {
+    height: auto;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+/*rectangle*/
+
+#rectangle {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 6em 0 0em 0;
+}
+
+#main-rectangle {
+    height: auto;
+    width: 100%;
+}
+
+#gray {
+    height: auto;
+    overflow: hidden;
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 100%;
+}
+
+/*content*/
+
+#header-content {
+    text-align: center;
+    padding: 3em 0 3em 0;
+}
+
+#header-content h2 {
+    font-size: 2em;
+    letter-spacing: 0.075em;
+    line-height: 1.5em;
+    font-weight: 700;
+    color: #484d55;
+    margin: 0px;
+}
+
+#header-content p {
+    font-size: 1.3em;
+    letter-spacing: 0.075em;
+    line-height: 1.5em;
+    color: #b1b4b9;
+}
+
+#content {
+    height: auto;
+    width: 86%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.block {
+    height: 217px;
+    width: 48%;
+    float: left;
+    padding-top: 2em;
+    border-top: solid 1px #eee;
+}
+
+.block h3 {
+    font-size: 1.15em;
+    letter-spacing: 0.05em;
+    color: #e97770;
+    text-align: center;
+}
+
+.block p {
+    margin: 0 0 0 5em;
+    color: #919499;
+    letter-spacing: 0.025em;
+    line-height: 1.75em;
+    text-align: center;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50%;
+    background-color: #2f333b;
+    margin-right: 1.2em;
+    float: left;
+}
+
+.block-right {
+    float: right;
+}
+
+#two-buttons {
+    width: 100%;
+    overflow: hidden;
+}
+
+#wrapper-buttons {
+    width: 520px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.red {
+    float: left;
+    margin: 0px;
+}
+
+.red a {
+    background: #e97770 url('images/overlay.png');
+    color: #fff;
+}
+
+.white {
+    float: right;
+    margin: 0px;
+}
+
+.white a {
+    background: #ffffff;
+    color: #606167;
+    box-shadow: inset 0px 0px 2px 0px #a0a1a7;
+}
+
+.middle-grey {
+    background: #f3f3f3 url('images/overlay.png');
+    margin-top: 105px;
+}
+
+.middle-grey h3 {
+    color: #484d55;
+}
+
+/*content grey*/
+
+#content-grey {
+    height: auto;
+    width: 100%;
+    background: #f3f3f3 url('images/overlay.png');
+    overflow: hidden;
+}
+
+#wrapper-grey {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+#three-blocks {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.block-grey {
+    width: 29%;
+    height: auto;
+    float: left;
+}
+
+.block-grey a {
+    display: block;
+    border: solid 10px #fff;
+    text-decoration: none;
+}
+
+.one {
+    margin-right: 6.4%;
+}
+
+.two {
+    margin-right: 6.4%;
+}
+
+.block-grey h3 a {
+    color: #e97770;
+    font-size: 1.15em;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border: none;
+}
+
+.block-grey p {
+    text-align: center;
+    color: #919499;
+    letter-spacing: 0.025em;
+    line-height: 2em;
+}
+
+.learn-more {
+    width: 57%;
+    min-width: 180px;
+}
+
+.learn-more a:hover {
+    background-color: #f98780;
+}
+
+.learn-more a {
+    border: none;
+    background: #e97770 url('images/overlay.png');
+    color: #fff;
+}
+
+/*footer*/
+
+#footer {
+    width: 100%;
+    height: 1300px;
+    background: #282b34 url('images/overlay.png');
+}
+
+.title-footer {
+    background: #282b34 url('images/overlay.png');
+}
+
+#wrapper-footer {
+    outline: 1px solid red;
+    width: 90%;
+    height: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#content-footer {
+    width: 100%;
+    height: auto;
+    padding-top: 13%;
+    padding-bottom: 4%;
+    border-bottom: solid 1px #32343D;
+}
+
+#content-footer h2 {
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: 0.075em;
+    line-height: 1.5em;
+    margin: 0px;
+}
+
+#content-footer p {
+    font-size: 1.3em;
+    letter-spacing: 0.075em;
+    line-height: 1.5em;
+    color: #b1b4b9;
+}
+
+#form-footer {
+    width: 100%;
+    height: 580px;
+    outline: 1px solid #ffffff;
+    padding-top: 5%;
+}
+
+#wrapper-form {
+    outline: 1px solid red;
+    width: 50%;
+    float: left;
+    height: 580px;
+}
+
+#info {
+    width: 50%;
+    float: right;
+    height: 580px;
+}
+
+#form {
+    width: 100%;
+    height: 350px;
+}
+
+#field {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.name {
+    float: left;
+}
+
+.email {
+    float: right;
+}
+
+.field {
+    width: 48%;
+    height: auto;
+}
+
+.field input {
+    border: 0;
+    border-radius: 0.35em;
+    width: 100%;
+    padding: 0.75em 1em 0.75em 1em;
+    font-size: 1.3em;
+    letter-spacing: 0.025em;
+    background: #ccc;
+    color: #595959;
+    box-sizing: border-box;
+}
+
+#text-form {
+    outline: 1px solid aqua;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 4%;
+}
+
+#text-form textarea {
+    background: #ccc;
+    min-height: 12em;
+    border: 0;
+    border-radius: 0.35em;
+    width: 100%;
+    padding: 0.75em 1em 0.75em 1em;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    letter-spacing: 0.015em;
+    color: #919499;
+    box-sizing: border-box;
+}
+
+#buttons-form {
+    outline: 1px solid aqua;
+    width: 100%;
+    height: 70px;
+}
+
+::-webkit-input-placeholder {color: #595959;}
+
+/*media header*/
+@media (max-width: 1200px) {
+    #header {
+        height: 448px;
+    }
+    h1 {
+        font-size: 1.75em;
+    }
+    .style1 {
+        font-size: 1.25em;
+    }
+    #intro {
+        height: 600px;
+    }
+    .style2 {
+        font-size: 2.25em;
+    }
+    #button-black {
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 750px) {
+    #nav {
+        display: none;
+    }
+    #header {
+        height: 226px;
+    }
+    h1 {
+        font-size: 1.2em;
+    }
+    #logo p {
+        font-size: 0.7em;
+    }
+    .style1 {
+        font-size: 0.7em;
+    }
+    #intro {
+        height: auto;
+    }
+    .style2 {
+        font-size: 1.3em;
+    }
+    .style3 {
+        font-size: 0.9em;
+    }
+    #intro-logo {
+        margin: 30px auto;
+    }
+    #button-black {
+        width: 61%;
+        height: 50px;
+        margin: 0px auto;
+    }
+    #button-black a {
+        line-height: 55px;
+    }
+}
+
+/*content*/
+
+@media (max-width: 1200px) {
+    #rectangle {
+        padding: 4em 0 0em 0;
+    }
+    .middle {
+        width: 225px;
+        margin-top: 50px;
+    }
+    #wrapper-buttons {
+        width: 480px;
+    }
+}
+
+@media (max-width: 750px) {
+    #rectangle {
+        padding: 30px 0px;
+    }
+    #header-content h2 {
+        font-size: 1.2em;
+    }
+    #header-content {
+        padding: 2em 0 1em 0;
+    }
+    #header-content p {
+        font-size: 0.9em;
+    }
+    .block-right {
+        float: none;
+    }
+    .block {
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+    .block h3 {
+        font-size: 0.9em;
+    }
+    .block p {
+        font-size: 0.8em;
+    }
+    .circle {
+        width: 32px;
+        height: 32px;
+    }
+    .middle {
+        float: none;
+        width: 100%;
+        height: 50px;
+    }
+    .middle a {
+        line-height: 55px;
+        font-size: 0.8em;
+    }
+    .white {
+        margin-top: 15px;
+    }
+    .middle-grey {
+        margin-top: 50px;
+    }
+}
+
+/*content grey*/
+
+@media (max-width: 750px) {
+    .block-grey {
+        width: 100%;
+        float: none;
+    }
+    #wrapper-grey {
+        margin-top: 30px;
+    }
+    .learn-more {
+        width: 67%;
+        min-width: 250px;
+        height: 50px;
+        margin: 25px auto;
+    }
+    .learn-more a {
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 460px) {
+    #wrapper-buttons {
+        width: 90%;
+    }
+}
+
+/*footer*/
+
+@media (max-width: 750px) {
+    #content-footer h2 {
+        font-size: 1.3em;
+        line-height: 1.25em;
+    }
+    #content-footer p {
+        font-size: 0.8em;
+    }
+
+    .title {
+        height: 2.5em;
+        line-height: 0px;
+        font-size: 0.8em;
+    }
+}
