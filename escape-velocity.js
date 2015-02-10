@@ -4,20 +4,32 @@ jQuery(document).ready(function (){
 
     jQuery('.list').hide();
     jQuery('li a[href=#active], .second,').hover(function () {
-        $('.second').show();
+        jQuery('.second').show();
     },function () {
         jQuery('.second').hide();
     });
 
     jQuery('li a[href=#active2], .third').hover(function () {
-        $('.third, .second').show();
+        jQuery('.third, .second').show();
     },function () {
         jQuery('.third').hide();
     });
 
+    /*drop-down*/
 
+    jQuery('#drop-down').hide();
+    jQuery('#menu').toggle(function () {
+        jQuery('#drop-down').show();
+    },function() {
+        jQuery('#drop-down').hide();
+    });
 
-
+    jQuery(window).resize(function () {
+        var width = jQuery(this).width();
+        if(width >= 730){
+            jQuery('#drop-down').hide();
+        }
+    });
 
 
 

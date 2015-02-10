@@ -11,6 +11,18 @@
 <body>
 
     <div id="header" >
+        <div id="menu">
+            <a href="#">menu</a>
+        </div>
+        <div id="drop-down">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">dropdown</a></li>
+                <li><a href="#">left sidebar</a></li>
+                <li><a href="#">right sidebar</a></li>
+                <li><a href="#">no sidebar</a></li>
+            </ul>
+        </div>
         <div id="nav">
             <ul id="list">
                 <li><a href="#">home</a></li>
@@ -170,24 +182,72 @@
             </div>
             <div id="form-footer">
                 <div id="wrapper-form">
-                    <div id="form">
-                        <div id="field">
-                            <div class="name field">
-                                <input type="text" name="name" id="contact-name" placeholder="Name">
+                    <form method="post" action="#">
+                        <div id="form">
+                            <div id="field">
+                                <div class="name field">
+                                    <input type="text" name="name" id="contact-name" placeholder="Name">
+                                </div>
+                                <div class="email field">
+                                    <input type="text" name="email" id="contact-email" placeholder="Email">
+                                </div>
                             </div>
-                            <div class="email field">
-                                <input type="text" name="email" id="contact-email" placeholder="Email">
+                            <div id="text-form">
+                                <textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+                            </div>
+                            <div id="buttons-form">
+                                <div class="button-style send">
+                                    <input type="submit" class="style1" value="Send" name="form">
+                                </div>
+                                <div class="button-style reset">
+                                    <input type="reset" class="style2" value="Reset">
+                                </div>
                             </div>
                         </div>
-                        <div id="text-form">
-                            <textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+                    </form>
+                </div>
+                <div id="info">
+                    <div id="wrapper-info">
+                        <div class="address mailing">
+                            <div class="icon-circle"></div>
+                            <h3>Mailing Address</h3>
+                            <p>
+                            Untitled Corporation<br>
+                            1234 Somewhere Rd <br>
+                            #987 <br> Nashville, TN 00000-0000
+                            </p>
                         </div>
-                        <div id="buttons-form">
-                            <div></div>
+                        <div class= "address social">
+                            <div class="icon-circle"></div>
+                            <h3>Social</h3>
+                            <p>
+                                <a href="#">@untitled-corp</a><br>
+                                <a href="#">linkedin.com/untitled</a><br>
+                                <a href="#">facebook.com/untitled</a>
+                            </p>
                         </div>
                     </div>
+                    <div class="address email-footer">
+                        <div class="icon-circle"></div>
+                        <h3>Email</h3>
+                        <p><a href="#">info@untitled.tld</a></p>
+                    </div>
+                    <div class="address email-footer">
+                        <div class="icon-circle"></div>
+                        <h3>Phone</h3>
+                        <p>(000) 555-0000</p>
+                    </div>
                 </div>
-                <div id="info"></div>
+            </div>
+        </div>
+        <div id="wrapper-copyright">
+            <div id="copyright">
+                <div class="untitled">
+                    <p>© Untitled</p>
+                </div>
+                <div class="design">
+                    <p>Design: <a href="http://html5up.net">HTML5 UP</a></p>
+                </div>
             </div>
         </div>
     </div>

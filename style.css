@@ -457,7 +457,7 @@ img {
 
 #footer {
     width: 100%;
-    height: 1300px;
+    height: auto;
     background: #282b34 url('images/overlay.png');
 }
 
@@ -466,9 +466,8 @@ img {
 }
 
 #wrapper-footer {
-    outline: 1px solid red;
     width: 90%;
-    height: 1300px;
+    height: auto;
     margin: 0 auto;
     text-align: center;
 }
@@ -498,27 +497,28 @@ img {
 
 #form-footer {
     width: 100%;
-    height: 580px;
-    outline: 1px solid #ffffff;
+    height: auto;
     padding-top: 5%;
+    overflow: hidden;
+    border-bottom: 1px solid #32343D;
 }
 
 #wrapper-form {
-    outline: 1px solid red;
     width: 50%;
     float: left;
-    height: 580px;
+    height: auto;
+    margin-bottom: 10%;
 }
 
 #info {
     width: 50%;
     float: right;
-    height: 580px;
+    height: auto;
 }
 
 #form {
     width: 100%;
-    height: 350px;
+    height: auto;
 }
 
 #field {
@@ -544,16 +544,15 @@ img {
     border: 0;
     border-radius: 0.35em;
     width: 100%;
-    padding: 0.75em 1em 0.75em 1em;
     font-size: 1.3em;
     letter-spacing: 0.025em;
     background: #ccc;
     color: #595959;
     box-sizing: border-box;
+    padding: 4% 4%;
 }
 
 #text-form {
-    outline: 1px solid aqua;
     width: 100%;
     height: auto;
     box-sizing: border-box;
@@ -562,7 +561,7 @@ img {
 
 #text-form textarea {
     background: #ccc;
-    min-height: 12em;
+    height: 100%;
     border: 0;
     border-radius: 0.35em;
     width: 100%;
@@ -572,15 +571,222 @@ img {
     letter-spacing: 0.015em;
     color: #919499;
     box-sizing: border-box;
+    outline: none;
 }
 
 #buttons-form {
-    outline: 1px solid aqua;
     width: 100%;
-    height: 70px;
+    height: auto;
+    padding-top: 7%;
+    overflow: hidden;
 }
 
 ::-webkit-input-placeholder {color: #595959;}
+
+.button-style input {
+    margin: 0px;
+    float: left;
+    background: #e97770 url('images/overlay.png');
+    color: #ffffff;
+    width: 31.5%;
+    height: 4em;
+    padding: 0px;
+    border: 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    cursor: pointer;
+    min-width: 158px;
+}
+
+.reset input {
+    background: none;
+    border: 1px solid #4E5057;
+    color: #aaa;
+    margin-left: 5%;
+
+}
+
+.reset input:hover {
+    color: #ffffff;
+}
+
+.send input:hover {
+    background-color: #f98780;
+}
+
+input {
+    outline: none;
+}
+
+.address {
+    height: auto;
+    width: 50%;
+    float: left;
+    padding-left: 12%;
+    box-sizing: border-box;
+}
+
+.icon-circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50% 50%;
+    background: #3d4249 url('images/overlay.png');
+    float: left;
+}
+
+#info h3 {
+    color: #e97770;
+    font-size: 1.15em;
+    letter-spacing: 0.05em;
+    margin-top: 3%;
+    margin-bottom: 9%;
+}
+
+.address p {
+    margin: 0 0 0 3.5em;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 0.025em;
+    line-height: 30px;
+    text-align: left;
+}
+
+.social {
+    float: right;
+}
+
+#info a {
+    color: #ffffff;
+}
+
+.social h3 ,.email-footer h3 {
+    margin-right: 44%;
+}
+
+.social a:hover {
+    text-decoration: none;
+}
+
+.email-footer a:hover {
+    text-decoration: none;
+}
+
+#wrapper-info {
+    height: auto;
+    overflow: hidden;
+}
+
+.email-footer {
+    height: auto;
+    padding-top: 5%;
+}
+
+#wrapper-copyright {
+    width: 100%;
+    height: auto;
+    padding-bottom: 78px;
+}
+
+#copyright {
+    width: 295px;
+    height: 50px;
+    border: 1px solid #32343D;
+    border-radius: 5px;
+    margin: 8% auto;
+
+}
+
+.untitled {
+    width: 40%;
+    float: left;
+    height: 30px;
+    color: rgba(255,255,255,0.25);
+    margin-top: 3.5%;
+    text-align: center;
+    border-right: 1px solid #32343D;
+}
+
+.untitled p {
+    line-height: 2px;
+}
+
+.design {
+    width: 59%;
+    float: right;
+    height: 40px;
+    color: rgba(255,255,255,0.25);
+    margin-top: 1.5%;
+    text-align: center;
+}
+
+#menu {
+    width: 45px;
+    height: 35px;
+    background-color: rgba(92,95,103,0.5);
+    margin: 3% 3%;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+#menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#menu:hover {
+    box-shadow: 2px 1px 30px 0px rgba(93, 82, 0, 1);
+}
+
+.design p {
+    line-height: 11px;
+}
+
+.design a {
+    color: rgba(255,255,255,0.25);
+}
+
+.design a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*drop-down*/
+
+#drop-down {
+    width: 78%;
+    position: absolute;
+    z-index: 1000;
+    margin-left: 10px;
+}
+
+#drop-down ul {
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#drop-down li {
+    list-style-type: none;
+    height: 45px;
+    line-height: 40px;
+}
+
+#drop-down a {
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+}
+
+#drop-down li:hover {
+    box-shadow: 2px 1px 30px 0px rgba(93, 82, 0, 1);
+}
 
 /*media header*/
 @media (max-width: 1200px) {
@@ -749,3 +955,122 @@ img {
         font-size: 0.8em;
     }
 }
+
+@media (max-width: 1200px) {
+    #wrapper-footer {
+        width: 95%;
+    }
+    .field input {
+        font-size: 0.9em;
+    }
+    .button-style input {
+        font-size: 0.8em;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+
+}
+
+/*form footer*/
+
+@media (max-width: 1200px) {
+    .address {
+        padding-left: 3%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .social h3 ,.email-footer h3 {
+        margin-right: 20%;
+    }
+    .address p {
+        font-size: 13px;
+        margin: 0 0 0 2em;
+    }
+}
+
+@media (max-width: 750px) {
+    .social h3 ,.email-footer h3 {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 750px) {
+    #info {
+        float: none;
+        width: 100%;
+        padding-top: 10%;
+    }
+    #info h3 {
+        text-align: left;
+        margin-bottom: 3%;
+    }
+    #wrapper-form {
+        float: none;
+        width: 100%;
+    }
+    .field {
+        width: 100%;
+    }
+    .field input {
+        padding: 2% 4%;
+        margin-top: 2%;
+    }
+    #text-form {
+        padding-top: 2%;
+    }
+    #buttons-form {
+        width: 62.5%;
+        margin: 0 auto;
+    }
+    .button-style input {
+        width: 100%;
+    }
+    .button-style {
+        overflow: hidden;
+    }
+    .reset input {
+        margin-left: 0px;
+    }
+    .send {
+        margin-bottom: 4%;
+    }
+    .address {
+        float: none;
+        width: 100%;
+        border-top: 1px solid #32343D;
+        padding-top: 3%;
+    }
+    .social {
+        float: none;
+    }
+    .address p {
+        margin: 0 0 0 60px;
+    }
+    .email-footer {
+        padding-top: 3%;
+    }
+
+    #copyright {
+        width: 95%;
+        height: 75px;
+    }
+    .untitled {
+        width: 100%;
+        float: none;
+        margin: 0;
+        height: 0;
+    }
+    .design {
+        width: 100%;
+        float: none;
+    }
+    #menu {
+        display: block;
+    }
+}
+
+
