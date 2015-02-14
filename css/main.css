@@ -53,6 +53,7 @@ body {
     border-radius: 0 0 10px 10px;
     margin: 0 -60px;
     background-color: rgba(44,50,63,0.925);
+    display: none;
 }
 
 .list > li {
@@ -754,6 +755,7 @@ input {
     position: absolute;
     z-index: 1000;
     margin-left: 10px;
+    display: none;
 }
 
 #drop-down ul {
