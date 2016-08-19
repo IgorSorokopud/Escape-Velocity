@@ -21,7 +21,7 @@ jQuery(document).ready(function () {
         function () {
             jQuery('#drop-down').show();
     },
-        function () {
+        function () { 
             jQuery('#drop-down').hide();
     });
 
