@@ -28,7 +28,7 @@ jQuery(document).ready(function () {
     jQuery(window).resize(function () {
         var width = jQuery(this).width();
         if (width >= 730){
-                jQuery('#drop-down').hide();
+            jQuery('#drop-down').hide();
         }
     });
 });
