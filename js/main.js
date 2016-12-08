@@ -1,5 +1,4 @@
 jQuery(document).ready(function () {
-
     /*menu*/
     jQuery('li a[href=#active], .second,').hover(
         function () {
